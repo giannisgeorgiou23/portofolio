@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giannis Georgiou — Computer Engineering Student</title>
+  <meta name="description"
+    content="Portfolio of Ioannis (Giannis) Georgiou, Computer Engineering student at the University of Manitoba — embedded systems, avionics, and firmware projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="nav">
+    <a href="#top" class="logo">Giannis Georgiou</a>
+    <div class="nav-links">
+      <!-- <a href="#about">About</a> -->
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="resume.pdf" class="btn btn--small">Résumé</a>
+  </nav>
+
+  <main id="top">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero-text reveal">
+        <!--  <p class="eyebrow">Computer Engineering Student</p> -->
+        <h1><span class="sr-only">Hey, I'm Giannis.</span><span id="typewriter" class="typewriter"
+            aria-hidden="true"></span><span class="typewriter-cursor" aria-hidden="true"></span></h1>
+        <p class="hero-sub">I am a fifth-year Computer Engineering student at the University of Manitoba with a strong
+          interest in software and hardware development.
+          Currently learning more about real-time embedded systems, PCB design and AI/ML.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn--primary">See my work</a>
+          <a href="#contact" class="btn btn--secondary">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-portrait reveal">
+        <div class="portrait-frame">
+          <img src="images/me.jpg" alt="Giannis Georgiou" class="portrait-photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= 
+    <section id="about" class="section">
+      <div class="section-head reveal">
+        <p class="label">About</p>
+        <h2>A little about me</h2>
+      </div>
+      <div class="about-grid reveal">
+        <p>I'm a computer engineering student at the University of Manitoba who enjoys problems that live on both sides
+          of the hardware and software line. Most of my projects start with a schematic or a PCB layout and end with
+          firmware, drivers, or an embedded system that makes the hardware genuinely useful.</p>
+        <p>I've designed flight computer PCBs and firmware for student-researched rockets with UMSATS, and co-authored a
+          published paper on an EKF framework for real-time CubeSat attitude determination with STARLab. Lately I've
+          been focused on real-time embedded systems, RTOS internals, and microprocessor architecture and interfacing.
+        </p>
+      </div>
+      <div class="stats reveal">
+        <div class="stat"><span class="stat-num">2027</span><span class="stat-label">Expected graduation</span></div>
+        <div class="stat"><span class="stat-num">4</span><span class="stat-label">Projects shipped</span></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Research positions</span></div>
+      </div>
+    </section>
+
+    -->
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <p class="label">Skills</p>
+        <h2>What I work with</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-group">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M16 18l6-6-6-6" />
+              <path d="M8 6l-6 6 6 6" />
+            </svg>
+          </div>
+          <h3>Programming &amp; HDL</h3>
+          <div class="pills">
+            <span>C</span><span>Python</span><span>Java</span>
+            <span>MATLAB</span><span>ARM Assembly</span><span>Verilog HDL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="7" y="7" width="10" height="10" rx="1" />
+              <path d="M12 2v3M12 19v3M2 12h3M19 12h3M7 2v2M17 2v2M7 20v2M17 20v2M2 7h2M2 17h2M20 7h2M20 17h2" />
+            </svg>
+          </div>
+          <h3>Embedded Systems</h3>
+          <div class="pills">
+            <span>STM32</span><span>ESP32</span><span>FreeRTOS</span>
+            <span>UART</span><span>SPI</span><span>I2C</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M14.7 6.3a4 4 0 1 0-5.4 5.4L2 19l3 3 7.3-7.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2-2z" />
+            </svg>
+          </div>
+          <h3>Tools &amp; Design</h3>
+          <div class="pills">
+            <span>KiCad</span><span>EasyEDA</span><span>Onshape</span>
+            <span>Git</span><span>LaTeX</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WORK / PROJECTS ================= -->
+    <section id="work" class="section">
+      <div class="section-head reveal">
+        <p class="label">Work</p>
+        <h2>A few projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <img src="images/demp_pic.jpg" alt="Project name" class="project-thumb">
+          <h3>Wireless Visual Command System for Deaf Curlers</h3>
+          <p>A wireless system built on ESP32 and ESP-NOW that gives deaf curling athletes real-time visual game
+            commands through a handheld transmitter and a wearable receiver.</p>
+          <div class="tags"><span>ESP32</span><span>C</span><span>Onshape</span></div>
+          <div class="project-links"><a href="images/d1.mp4" target="_blank" rel="noopener">Watch demo ▸</a></div>
+          <button type="button" class="details-btn">View details →</button>
+          <div class="project-full" hidden>
+            <div class="gallery">
+              <img src="images/receiver_model.png" alt="Project name" class="project-thumb">
+            </div>
+            <p>Built to help deaf athletes receive real-time curling commands without relying on sound. The system uses
+              ESP32 boards communicating over the ESP-NOW protocol, with C firmware driving a multiplexed
+              reversing-radar-style display that shows distinct visual instructions like "Curl" or "Line".</p>
+            <p>The hardware is packaged into two 3D-printed enclosures modeled in Onshape. The system consists of a
+              handheld transmitter controller for the skip, and a wearable hat-mounted receiver for the
+              sweeper.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <img src="images/airbag_osciloscope.jpg" alt="Project name" class="project-thumb">
+          <h3>Automotive Airbag Simulator</h3>
+          <p>A real-time simulation of an automotive airbag deployment system built in C on an STM32F407, using FreeRTOS
+            for preemptive task scheduling.</p>
+          <div class="tags"><span>STM32</span><span>FreeRTOS</span><span>C</span></div>
+          <button type="button" class="details-btn">View details →</button>
+          <div class="project-full" hidden>
+            <div class="gallery">
+              <img src="images/airback_terminal_out.jpg" alt="Project name" class="project-thumb">
+            </div>
+            <p>Simulates an automotive airbag system's real-time behavior on an STM32F407 board. Task scheduling and
+              inter-process communication run under FreeRTOS, using hardware interrupts, binary semaphores, and shared
+              memory to coordinate sensor reads and deployment logic under strict timing constraints.</p>
+            <p>Airbag deployment logic is tied to accurate GPIO signaling, with UART logging used throughout development
+              to validate response timing against the sequence of simulated crash events.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <img src="images/gesture_bread.jpg" alt="Project name" class="project-thumb">
+          <h3>Real-Time Gesture Recognition System</h3>
+          <p>An int8-quantized neural network trained in Python and ported to C++ for real-time gesture inference on a
+            Raspberry Pi Pico with no host computer required.</p>
+          <div class="tags"><span>TensorFlow Lite Micro</span><span>Python</span><span>C++</span></div>
+          <div class="project-links"><a href="images/demo_gesture.mp4" target="_blank" rel="noopener">Watch demo ▸</a>
+          </div>
+          <button type="button" class="details-btn">View details →</button>
+          <div class="project-full" hidden>
+            <div class="gallery">
+              <img src="images/gesture_output.jpg" alt="Project name" class="project-thumb">
+            </div>
+            <p>A gesture recognition pipeline trained end-to-end in Python, then quantized to int8 and deployed for
+              standalone real-time inference on a Raspberry Pi Pico. Feature extraction (mean, standard deviation, min,
+              and max per sensor axis), along with the quantization logic, was ported from Python to C++ to run natively
+              on-device.</p>
+            <p>The final firmware includes a custom I2C sensor driver, a windowing buffer, and an inference loop written
+              in C++.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= PROJECT DETAILS MODAL ================= -->
+    <div class="modal-overlay" id="modal-overlay" hidden>
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button type="button" class="modal-close" id="modal-close" aria-label="Close details">×</button>
+        <div class="modal-gallery" id="modal-gallery"></div>
+        <div class="modal-tags" id="modal-tags"></div>
+        <h3 id="modal-title"></h3>
+        <div class="modal-body" id="modal-body"></div>
+        <div class="modal-links" id="modal-links"></div>
+      </div>
+    </div>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="section">
+      <div class="section-head reveal">
+        <p class="label">Experience</p>
+      </div>
+      <div class="timeline reveal">
+
+        <div class="timeline-row">
+          <div class="timeline-date">Aug 2024 – Jan 2026</div>
+          <div class="timeline-body">
+            <h3>Avionics Subsystem Member — UMSATS</h3>
+            <p>Researched, designed, and tested flight computer systems for student-researched and developed (SRAD)
+              rockets. Designed PCBs in KiCad integrating microcontrollers, sensors, and communication interfaces, and
+              implemented and validated embedded firmware for microcontroller-based flight systems.</p>
+          </div>
+        </div>
+
+        <div class="timeline-row">
+          <div class="timeline-date">May 2024 – Aug 2024</div>
+          <div class="timeline-body">
+            <h3>Undergraduate Student Researcher — STARLab</h3>
+            <p>Co-authored a paper published at SpaceOps 2025 on an EKF framework for real-time CubeSat attitude
+              determination. Configured and verified a 12-camera VICON motion capture system as ground truth, confirming
+              angular tracking accuracy within 0.07% at 15 RPM.</p>
+            <a href="https://doi.org/10.82217/spaceops2025_503" class="timeline-link" target="_blank"
+              rel="noopener">Read the published paper ▸</a>
+          </div>
+        </div>
+
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section section--contact">
+      <div class="contact-inner reveal">
+        <span class="availability-badge"><span class="dot"></span>Open to internships &amp; research
+          opportunities</span>
+        <h2>Email:</h2>
+        <a href="mailto:georgiog@myumanitoba.ca" class="contact-email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+            stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m22 6-10 7L2 6" />
+          </svg>
+          georgiog@myumanitoba.ca
+        </a>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/georgiou-giannis" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM3.2 8.75h3.5V21H3.2V8.75Zm6.4 0h3.36v1.68h.05c.47-.88 1.6-1.8 3.3-1.8 3.53 0 4.18 2.32 4.18 5.35V21h-3.5v-5.36c0-1.28-.02-2.93-1.79-2.93-1.8 0-2.07 1.4-2.07 2.84V21h-3.5V8.75Z" />
+            </svg>
+            LinkedIn
+          </a>
+          <a href="resume.pdf" class="social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <path d="M14 2v6h6" />
+            </svg>
+            Résumé
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Giannis Georgiou</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
